@@ -1,6 +1,6 @@
 import { useState } from "react";
 import React from "react";
-import { useColor } from "./ColorContext";
+import { useColor } from "../guildgroupbuilder/src/ColorContext";
 import circleIcon from './assets/Circle1.png'
 
 function SideBar() {

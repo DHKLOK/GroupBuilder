@@ -20,11 +20,11 @@ body{
   position: fixed;
   top: 0;
   left: 0;
-  transition: width 0.3s; /* Use width for the transition */
+  transition: height 3.0s; /* Use width for the transition */
 }
 
 .secondLayer.collapsed {
-  width: 0; /* Collapse the sidebar by setting width to 0 */
+  height: 0; /* Collapse the sidebar by setting width to 0 */
 }
 
 
