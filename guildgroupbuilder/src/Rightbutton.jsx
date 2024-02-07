@@ -42,8 +42,8 @@ function Rightbutton() {
           style={{
             height: '500px',
             width: '500px',
-            transition: 'transform 0.5s ease',
-            transform: `translateY(${isCollapsed ? '-100%' : '0'})`,
+            transition: 'margin-top 1s ease',
+            marginTop: isCollapsed ? '-200%' : '0',
           }}
         >
           <img
